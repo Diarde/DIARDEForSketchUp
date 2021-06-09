@@ -1,0 +1,7 @@
+<div class="divContainer">
+  <div class="divImage" *ngFor="let image of images">
+    <img *ngIf="images"
+         src="{{base}}/_uploads/{{image.filename}}.thumb.jpg" alt="Image"
+         class="image"/>
+  </div>
+</div>
